@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RPG Game</title>
+</head>
+<script>
+
+// Intial variables. Players attack and health points.
+
+var obiWan  = { healthPoints: 120, attackPower: 8 },
+    luke    = { healthPoints: 100, attackPower: 5 }, 
+    sidious = { healthPoints: 150, attackPower: 7 },
+    maul    = { healthPoints: 180, attackPower: 25 },
+    attacker;
+	
+// On initial click the player is chosen and all others move below.
+
+// Click enemy to engage. Chosen enemy moves to defender area.
+
+// Attack enemy. Attack power increases by its base each click. Player's health points are reduced by oponents power until win or loss.
+
+
+// You have defeated opponent, you can choose to fight another enemy.
+// You have been defeated! Game over!
+// Add restart button
+
+</script>
+<body>
+	<h1>Star Wars PRG!</h1>
+	<div id="initial-players">
+		<div id="player1"><h3>Obi-Wan Kenobi</h3><p class="player-pts">120</p></div>
+		<div id="player2"><h3>Luke Skywalker</h3><p class="player-pts">100</p></div>
+		<div id="player3"><h3>Darth Sidious</h3><p class="player-pts">150</p></div>
+		<div id="player4"><h3>Darth Maul</h3><p class="player-pts">180</p></div>
+	</div>
+	<h2>Your Character</h2>
+	<div id="attacker"></div>
+	<h2>Enemies Available to Attack</h2>
+	<div id="enemies"></div>
+	<button id="attack-button">Attack</button>
+	<h2>Defender</h2>
+	<div id="defender"></div>
+	
+</body>
+</html>
