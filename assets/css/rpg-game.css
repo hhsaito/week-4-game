@@ -1,0 +1,40 @@
+body {
+	background: url('../images/star_wars_xwing.jpg') no-repeat;
+		background-size: cover;
+}
+h1 {
+	text-align: right;
+	margin-right: 6em;
+}
+.rpg-player {
+	float: left;
+  	height: 140px;
+  	width: 180px;
+    text-align: center;
+    background: #ffffff;
+}
+.rpg-player h3 {
+	margin: 0;
+}
+.rpg-player img {
+	width: 125px;
+	height: auto;
+}
+.rpg-player p {
+	margin: 0;
+}
+#enemies .rpg-player {
+	background: red;
+}
+#defender .rpg-player {
+	background: #000000;
+	color: #ffffff;
+}
+h2, button, #win-or-lose {
+	clear: left;
+}
+#attack-player, #enemies, #defender {
+	content: "";
+	display: table;
+	clear: both;
+}
